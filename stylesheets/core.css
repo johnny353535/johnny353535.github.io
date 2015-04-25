@@ -1,3 +1,17 @@
 @import url("screen.css");
 @import url("non-screen.css") handheld;
 @import url("non-screen.css") only screen and (max-device-width:640px);
+
+#no-downloads .profile-pic {
+  position: absolute;
+  bottom: 14px;
+  left: 50%;
+
+  margin-left: -26px;
+}
+
+.profile-pic {
+  box-shadow: none;
+  border-radius: 50%;
+  width: 50px;
+}
