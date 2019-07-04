@@ -1,90 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-	<meta charset='utf-8'>
-	<meta http-equiv="X-UA-Compatible" content="chrome=1">
-	<meta name="viewport" content="width=640">
-	<link rel="stylesheet" href="stylesheets/core.css" media="screen">
-	<link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
-	<link rel="stylesheet" href="stylesheets/pygment_trac.css">
-	<script type="text/javascript" src="javascripts/modernizr.js"></script>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script type="text/javascript" src="javascripts/main.js"></script>
-	<title>Jonas Hartweg</title>
-</head>
+    <title>Jonas Hartweg - Freelance frontend developer</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        line-height: 1.5;
 
-<body>
-	<div class="shell">
-		<header>
-			<span class="ribbon-outer">
-				<span class="ribbon-inner">
-					<h1>Jonas Hartweg</h1>
-					<h2>Freelance Front-End Developer from Berlin</h2>
-				</span>
-				<span class="left-tail"></span>
-				<span class="right-tail"></span>
-			</span>
-		</header>
-		<div id="no-downloads">
-			<span class="inner">
-				<!--<img src="images/icke.jpg" class="profile-pic" alt="Profile Picture"/><br>-->
-			</span>
-		</div>
-		<span class="banner-fix"></span>
-		<section id="main_content">
-			<h1 class="header-level-1">
-				Hey there, I'm Jonas!
-			</h1>
-			<h3 class="header-level-2">
-				<a id="about-me" class="anchor" href="#about-me" aria-hidden="true"><span
-						class="octicon octicon-link"></span></a>About me
-			</h3>
-			<p>I'm a freelance front-end developer based in Berlin. I work with <strong>JavaScript</strong> and <strong>React.js</strong> to build
-				interactive web experiences on mobile and desktop. I have experience working with an <strong>agile product
-				development</strong> team and experience in <strong>UX design</strong>.</p>
-			<p>In my previous jobs I helped to build large-scale <a target="_blank" href="https://www.signavio.com">B2B software</a> as well as brand experiences for
-				<a target="_blank" href="https://www.starbucks.de">Starbucks</a>, <a target="_blank" href="https://www.berliner-pilsner.de">Berliner Pilsner</a> and various <a target="_blank" href="https://www.ferrero.de">Ferrero</a> products. I have a master's degree in Media and Computing.</p>
-			<p>
-				<strong>You can write me at <a
-						href="mailto:contact@jonas-hartweg.de">contact@jonas-hartweg.de</a></strong><br>
-				Availability, rates, CV and references available upon request
-			</p>
-			<h3 class="header-level-2">
-				<a id="references" class="anchor" href="#references" aria-hidden="true"><span
-						class="octicon octicon-link"></span></a>References
-			</h3>
-			<ul>
-				<li>I worked as a Frontend Engineer for <a target="_blank" href="http://www.signavio.com/">Signavio</a> and gosub
-					communications (now <a
-						href="https://www.edelman.de/ueber-uns/standorte/edelman-digital-unsere-kreativen-digital-experten/">Edelman
-						Digital</a>)</li>
-				<li>I helped to build a visual search engine, the basis for <a
-						href="https://demo.pixolution.org">pixolution flow</a></li>
-				<li>I built the interface of <a
-						href="https://appworld.blackberry.com/webstore/content/37914/">awesomeTD</a>, a Flash-based
-					tower defense game for the Blackberry Playbook</li>
-				<li>Check out my <a target="_blank" href="https://github.com/johnny353535">GitHub Account</a> for some of the other work
-					I've done</li>
-			</ul>
-			<h3 class="header-level-2">
-				<a id="contact" class="anchor" href="#contact" aria-hidden="true"><span
-						class="octicon octicon-link"></span></a>Contact
-			</h3>
-			<p>You can write me an <a href="mailto:contact@jonas-hartweg.de">e-mail</a> and contact me on <a
-					href="https://linkedin.com/pub/jonas-hartweg/49/724/662">LinkedIn</a> or <a
-					href="https://www.xing.com/profile/Jonas_Hartweg2">XING</a>.</p>
-		</section>
-		<footer>
-			<span class="ribbon-outer">
-				<span class="ribbon-inner">
-					<p>&#169; Jonas Hartweg, 2019</p>
-				</span>
-				<span class="left-tail"></span>
-				<span class="right-tail"></span>
-			</span>
-		</footer>
-	</div>
-</body>
+        font-family: sans-serif;
+        font-weight: 300;
+        color: rgb(27, 27, 26);
+      }
 
+      a {
+        color: inherit;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      p {
+        text-align: justify;
+        margin: 0 0 14px;
+      }
+
+      strong {
+        font-weight: 500;
+      }
+
+      .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin: 24px;
+      }
+
+      .logo {
+        margin-bottom: 24px;
+      }
+
+      .main-content {
+        max-width: 400px;
+        margin-bottom: 20px;
+      }
+
+      @media (max-width: 400px) {
+        body {
+          align-items: normal;
+        }
+
+        .logo {
+          width: 100px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <img class="logo" src="logo.png" alt="Jonas Hartweg" />
+      <section class="main-content">
+        <p>
+          I'm a freelance front-end developer based in Berlin. I work with
+          <strong>JavaScript</strong> and <strong>React.js</strong> to build interactive web
+          experiences on mobile and desktop. I have experience working with an
+          <strong>agile product development</strong> team and experience in
+          <strong>UX design</strong>.
+        </p>
+        <p>
+          <strong
+            >You can write me at
+            <a href="mailto:contact@jonas-hartweg.de">contact@jonas-hartweg.de</a></strong
+          >
+        </p>
+        <p>Availability, rates, CV and references available upon request.</p>
+      </section>
+    </div>
+  </body>
 </html>
