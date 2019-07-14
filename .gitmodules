@@ -1,3 +1,3 @@
-[submodule "behindthewall.berlin"]
+[submodule "behindthewall"]
 	path = behindthewall
-	url = git@github.com:johnny353535/behindthewall.git
+	url = https://github.com/johnny353535/behindthewall.git
