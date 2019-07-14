@@ -1,0 +1,3 @@
+[submodule "behindthewall.berlin"]
+	path = behindthewall
+	url = git@github.com:johnny353535/behindthewall.git
